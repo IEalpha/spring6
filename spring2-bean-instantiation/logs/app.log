@@ -1,0 +1,34 @@
+2024-03-11 22:20:52.307 [main] DEBUG org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@73a2e526
+2024-03-11 22:20:52.391 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 1 bean definitions from class path resource [applicationContext.xml]
+2024-03-11 22:20:52.407 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'springBean'
+2024-03-11 22:20:52.407 [main] INFO  com.icbc.sd.beanInstantiation.SpringBean - SpringBean's no args constructor...
+2024-03-11 22:20:52.430 [main] INFO  com.icbc.sd.test.BeanInstantiationTest - springBean: com.icbc.sd.beanInstantiation.SpringBean@1fc0053e
+2024-03-11 22:26:58.566 [main] DEBUG org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@73a2e526
+2024-03-11 22:26:58.674 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 2 bean definitions from class path resource [applicationContext.xml]
+2024-03-11 22:26:58.714 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'springBean'
+2024-03-11 22:26:58.715 [main] INFO  com.icbc.sd.beanInstantiation.SpringBean - SpringBean's no args constructor...
+2024-03-11 22:26:58.730 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'star'
+2024-03-11 22:27:43.610 [main] DEBUG org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@73a2e526
+2024-03-11 22:27:43.710 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 2 bean definitions from class path resource [applicationContext.xml]
+2024-03-11 22:27:43.730 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'springBean'
+2024-03-11 22:27:43.731 [main] INFO  com.icbc.sd.beanInstantiation.SpringBean - SpringBean's no args constructor...
+2024-03-11 22:27:43.742 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'star'
+2024-03-11 22:27:43.745 [main] ERROR com.icbc.sd.simpleBeanFactoryInstantiation.Star - Star constructor
+2024-03-11 22:27:43.760 [main] INFO  com.icbc.sd.test.BeanInstantiationTest - star: com.icbc.sd.simpleBeanFactoryInstantiation.Star@11dee337
+2024-03-11 22:39:31.228 [main] INFO  com.icbc.sd.beanInstantiation.SpringBean - SpringBean's no args constructor...
+2024-03-11 22:39:31.243 [main] INFO  com.icbc.sd.simpleBeanFactoryInstantiation.Star - Star constructor
+2024-03-11 22:39:31.264 [main] INFO  com.icbc.sd.test.BeanInstantiationTest - cat: com.icbc.sd.factoryBeanInstantiation.Cat@2fab4aff
+2024-03-11 22:43:00.596 [main] INFO  com.icbc.sd.beanInstantiation.SpringBean - SpringBean's no args constructor...
+2024-03-11 22:43:00.608 [main] INFO  com.icbc.sd.simpleBeanFactoryInstantiation.Star - Star constructor
+2024-03-11 22:43:00.629 [main] INFO  com.icbc.sd.test.BeanInstantiationTest - gun: com.icbc.sd.factoryBeanInterfaceInstantiation.Gun@7997b197
+2024-03-11 22:45:25.544 [main] INFO  com.icbc.sd.beanInstantiation.SpringBean - SpringBean's no args constructor...
+2024-03-11 22:45:25.559 [main] INFO  com.icbc.sd.simpleBeanFactoryInstantiation.Star - Star constructor
+2024-03-11 22:45:25.575 [main] INFO  com.icbc.sd.test.BeanInstantiationTest - gun: com.icbc.sd.factoryBeanInterfaceInstantiation.Gun@7997b197
+2024-03-11 22:45:25.575 [main] INFO  com.icbc.sd.test.BeanInstantiationTest - gunFactory: com.icbc.sd.factoryBeanInterfaceInstantiation.GunFactory@11dee337
+2024-03-11 22:45:58.389 [main] INFO  com.icbc.sd.beanInstantiation.SpringBean - SpringBean's no args constructor...
+2024-03-11 22:45:58.402 [main] INFO  com.icbc.sd.simpleBeanFactoryInstantiation.Star - Star constructor
+2024-03-11 22:45:58.419 [main] INFO  com.icbc.sd.test.BeanInstantiationTest - gun: com.icbc.sd.factoryBeanInterfaceInstantiation.Gun@7997b197
+2024-03-11 22:45:58.419 [main] INFO  com.icbc.sd.test.BeanInstantiationTest - gunFactory: com.icbc.sd.factoryBeanInterfaceInstantiation.GunFactory@11dee337
+2024-03-11 22:45:58.419 [main] INFO  com.icbc.sd.test.BeanInstantiationTest - class com.icbc.sd.factoryBeanInterfaceInstantiation.Gun
+2024-03-11 22:54:38.816 [main] WARN  org.springframework.context.support.ClassPathXmlApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'student' defined in class path resource [applicationContext2.xml]: Failed to convert property value of type 'java.lang.String' to required type 'java.util.Date' for property 'birthday'; Cannot convert value of type 'java.lang.String' to required type 'java.util.Date' for property 'birthday': no matching editors or conversion strategy found
+2024-03-11 23:02:55.977 [main] WARN  org.springframework.context.support.ClassPathXmlApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'student' defined in class path resource [applicationContext2.xml]: Failed to convert property value of type 'java.lang.String' to required type 'java.util.Date' for property 'birthday'; Cannot convert value of type 'java.lang.String' to required type 'java.util.Date' for property 'birthday': no matching editors or conversion strategy found

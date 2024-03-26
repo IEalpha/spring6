@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="springBean" class="com.icbc.sd.beanInstantiation.SpringBean"/>
+
+    <bean id="star" class="com.icbc.sd.simpleBeanFactoryInstantiation.StarFactory" factory-method="createStar"/>
+
+    <bean id="catFactory" class="com.icbc.sd.factoryBeanInstantiation.CatFactory"/>
+
+    <bean id="cat" factory-bean="catFactory" factory-method="get"/>
+
+    <bean id="gun" class="com.icbc.sd.factoryBeanInterfaceInstantiation.GunFactory"/>
+</beans>

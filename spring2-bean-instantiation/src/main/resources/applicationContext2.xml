@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/util https://www.springframework.org/schema/util/spring-util.xsd">
+
+    <bean id="birthday" class="com.icbc.sd.factoryBeanUsage.DateFactoryBean">
+        <constructor-arg name="strDate" value="2002-02-02"/>
+    </bean>
+
+    <bean id="student" class="com.icbc.sd.factoryBeanUsage.Student">
+        <property name="name" value="张雨凝"/>
+        <property name="age" value="18"/>
+<!--        <property name="birthday" ref="birthday"/>-->
+        <property name="birthday" value="2022-01-01"/>
+    </bean>
+</beans>

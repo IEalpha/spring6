@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="husband" class="com.icbc.sd.singletonAndSetModelCircularDependency.Husband">
+        <property name="name" value="刘涵旭"/>
+        <property name="wife" ref="wife"/>
+    </bean>
+
+    <bean id="wife" class="com.icbc.sd.singletonAndSetModelCircularDependency.Wife">
+        <property name="name" value="张雨凝"/>
+        <property name="husband" ref="husband"/>
+    </bean>
+</beans>
