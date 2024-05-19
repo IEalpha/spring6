@@ -16,6 +16,10 @@
         <module>annotation-test</module>
         <module>spring-jdbc</module>
         <module>dynamic_proxy</module>
+        <module>spring-aop</module>
+        <module>banktx</module>
+        <module>mybatis</module>
+        <module>spring2-mybatis</module>
     </modules>
 
     <properties>
@@ -70,6 +74,11 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-jdbc</artifactId>
             <version>6.1.4</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+            <version>6.0.13</version>
         </dependency>
 
         <dependency>
